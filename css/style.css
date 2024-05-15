@@ -130,13 +130,56 @@ img {
 
 /* tablet  */
 @media screen and (max-width: 768px) {
+    
     .container {
         width: 100%;
     }
+
 }
 /* /tablet */
 
+/* mobile */
+@media screen and (max-width: 480px) {
 
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .why-us h2 {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+
+    .row {
+        display: block;
+        
+    }
+
+    .col {
+        margin: 50px auto;
+    }
+
+    .lessons .col {
+        width: 80%;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .steps .col {
+        width: 80%;
+    }
+
+    .why-us .col-left {
+        width: 80%;
+      }
+    
+    .why-us {
+        background-color: black;
+    }
+}
+/* /mobile */
 
 
 
